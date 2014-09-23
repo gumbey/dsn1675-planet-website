@@ -48,7 +48,7 @@ header{
     color: #0074D9;
 }
 
-.title {
+h1 {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -75,3 +75,4 @@ header{
     .nav {
         float: left;
     }
+}
