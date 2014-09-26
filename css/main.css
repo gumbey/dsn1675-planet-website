@@ -47,8 +47,7 @@ header{
     text-decoration: none;
     color: #0074D9;
 }
-
-h1 {
+.venus {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -68,7 +67,7 @@ h1 {
 
 @media only screen and (min-width:54em) {
     
-    .title {
+    .venus {
         float: left;
     }
     
