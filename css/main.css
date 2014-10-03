@@ -60,8 +60,9 @@ header{
 }
 
 .intro {
-    background: #ccc;
+    background: #e2e2e2;
     margin: 0;
+    text-align: center;
 }
 
 @media only screen and (min-width:22em) {
@@ -78,6 +79,10 @@ header{
 
 @media only screen and (min-width:38em){
     .nav {
-        text-align: left
+        text-align: left;
 }
-    
+
+    .mars {
+        text-align: left;
+    }
+}
