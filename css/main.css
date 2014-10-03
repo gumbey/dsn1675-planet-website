@@ -59,6 +59,11 @@ header{
     display: inline-block;
 }
 
+.intro {
+    background: #ccc;
+    margin: 0;
+}
+
 @media only screen and (min-width:22em) {
     
     .nav li {
@@ -71,15 +76,8 @@ header{
     }
 }   
 
-@media only screen and (min-width:54em) {
-    
-    .mars {
-        float: left;
-    }
-    
+@media only screen and (min-width:38em){
     .nav {
-        float: left;
-    }
-
-    
+        text-align: left
 }
+    
