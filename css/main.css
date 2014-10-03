@@ -56,6 +56,10 @@ figure {
     margin: 0;
 }
 
+.unit {
+    padding: 1rem;
+}
+
 @media only screen and (min-width:22em) {
     
     .nav li {
@@ -77,4 +81,6 @@ figure {
     .nav {
         float: left;
     }
+
+    
 }
