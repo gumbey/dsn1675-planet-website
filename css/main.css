@@ -47,17 +47,16 @@ header{
     text-decoration: none;
     color: #0074D9;
 }
-.venus {
+.mars {
     text-align: center;
     margin: 0;
     padding: 0;
 }
-figure {
-    margin: 0;
-}
 
-.unit {
-    padding: 1rem;
+
+.different {
+    width: 75%;
+    display: inline-block;
 }
 
 @media only screen and (min-width:22em) {
@@ -74,7 +73,7 @@ figure {
 
 @media only screen and (min-width:54em) {
     
-    .venus {
+    .mars {
         float: left;
     }
     
