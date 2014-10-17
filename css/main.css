@@ -16,6 +16,29 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110% 
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%
+    }
+
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%
+    }
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -82,7 +105,16 @@ header{
 .footer{
     background-color: #ccc;
 }
-@media only screen and (min-width:22em) {
+
+.navfooter {
+    text-align: left;
+}
+
+li{
+    
+}
+
+@media only screen and (min-width:25em) {
     
     .nav li {
         width 40%;
@@ -92,14 +124,41 @@ header{
     .nav {
         text-align: center;
     }
+    .navfooter {
+        text-align: center;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
 }   
 
 @media only screen and (min-width:38em){
+    
     .nav {
         text-align: left;
 }
 
     .mars {
         text-align: left;
+    }
+    
+    .navfooter {
+        float: right;
+    }
+    .copyright {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .data dd {
+        float: left;
+    }
+    .data dt {
+        float: left;
+        clear: left;
+        width: 30%;
     }
 }
