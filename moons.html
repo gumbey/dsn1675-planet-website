@@ -9,20 +9,25 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
-<header>
+    <ul class="skip-links">
+        <li><a href="#main">Skip to main contect</a></li>
+        <li><a href="#navigation">Skip to navigation</a></li>
+    </ul>
+<header role="banner">
     <div class="grid grid-middle">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
             <h1 class="mars peta island-half push-0">Mars</h1>
         </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
+        <nav id="navigation" class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
             <ul class="nav mega push-0">
                 <li><a class="island-half" href="index.html">Planets</a></li>
                 <li><a class="island-half" href="moons.html">Moons</a></li>
                 <li><a class="island-half" href="exploration.html">Exploration</a></li>
             </ul>
-        </div>    
+        </nav>    
     </div>    
 </header>
+<main role='main'>
     <h2 class="intro yotta island-half">Moons</h2>
     
     <div class="grid pad-t gutter-half">
@@ -38,9 +43,9 @@
                 </div>
             </div>
                 <dl class="data">
-                    <dt class="milli">Diameter (km)</dt><dd class="mega"><data>11.2667</data></dd>
-                    <dt class="milli">Mass (kg)</dt><dd class="mega"><data>1.0659×1016</data></dd>
-                    <dt class="milli">Orbital period</dt><dd class="mega"><data>7 h 39.2 min</data></dd>
+                    <dt class="milli">Diameter (km)</dt><dd class="mega"><data valu="11.2667">11.2667</data></dd>
+                    <dt class="milli">Mass (kg)</dt><dd class="mega"><data value="1.0659e1016">1.0659×1016</data></dd>
+                    <dt class="milli">Orbital period</dt><dd class="mega"><data value="7.653">7 h 39.2 min</data></dd>
                 </dl>
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter-half">
@@ -54,9 +59,9 @@
                 </div>
             </div>
                 <dl class="data">
-                    <dt class="milli">Diameter(km)</dt><dd class="mega"><data>6.2 ± 0.18 km</data></dd>
-                    <dt class="milli">Mass(kg)</dt><dd class="mega"><data>1.4762×1015</data></dd>
-                    <dt class="milli">Orbital period</dt><dd class="mega"><data>30.312 h</data></dd>
+                    <dt class="milli">Diameter(km)</dt><dd class="mega"><data value="6.2">6.2 ± 0.18 km</data></dd>
+                    <dt class="milli">Mass(kg)</dt><dd class="mega"><data value="1.4762e1015">1.4762×1015</data></dd>
+                    <dt class="milli">Orbital period</dt><dd class="mega"><data value="30.312">30.312 h</data></dd>
                 </dl>
         </div>
         
@@ -76,17 +81,18 @@
         </div>
         
     </div>
-    <div class=" grid footer island-half micro">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
-            <footer class="copyright">© 2014 Mar Planetary Consortium</footer>
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
-            <ul class="nav push-0 navfooter">
-                <li><a href="index.html">Planets</a></li>
-                <li><a href="moons.html">Moons</a></li>
-                <li><a href="exploration.html">Exploration</a></li>
-            </ul>
-        </div>
-    </div>
+</main>
+    <footer class=" grid footer island-half micro">
+            <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+                <p class="copyright push-0">© 2014 Mars Planetary Consortium</p>
+            </div>
+            <nav class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
+                <ul class="nav push-0 navfooter">
+                    <li><a href="index.html">Planets</a></li>
+                    <li><a href="moons.html">Moons</a></li>
+                    <li><a href="exploration.html">Exploration</a></li>
+                </ul>
+            </nav>
+    </footer>
 </body>
 </html>
