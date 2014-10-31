@@ -133,7 +133,52 @@ header{
     text-align: left;
 }
 
+.background {
+    background-color: #e2e2e2;
+}
 
+.join {
+    text-align: center;
+}
+
+.sign {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+input + label{
+    display: inline-block;
+}
+
+.field {
+    font-size: 1em;
+    padding: 0.25em;
+    width: 100%
+}
+
+.form {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.area {
+    width: 100%;
+    height: 20em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.sign {
+    text-align: center;
+}
+
+buttom {
+    background: 1em;
+}
 @media only screen and (min-width:25em) {
     
     .nav li {

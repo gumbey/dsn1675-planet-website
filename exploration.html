@@ -30,9 +30,57 @@
 <main role="main" id="main">
 <div  class="intro peta pad-t pad-b push">    
     <h2 class="push-0">Exploration</h2>
+</div>  
+<div class="background island-half">
+    <form action="thanks.html" method="post" class="form">
+        <h2 class=" join">Join Mars's Exploration Team</h2>
+
+        <p class="milli signup">Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
+
+        <div>    
+            <label class="milli" for="name">Name</label>    
+            <input  class="field" id="name">
+        </div>
+
+        <div>    
+            <label class="milli" for="email-addr">E-mail</label>    
+            <input class="field" type="email" id="email-addr">
+        </div>
+
+        <div>
+            <label  class="milli"for="age">Age</label>
+            <input class="field" type="number" id="age" min="18" max="30">
+        </div>
+        <div class="push-half">
+            <p class="milli push-0"><em>Your level of awesomeness:</em></p>
+            <span class="radio">
+            <input type="radio" id="not" name="like-cats">
+            <label class="milli" for="meh">Meh...</label>
+            </span>
+            
+            <span class="radio">
+            <input type="radio" id="good" name="like-cats">
+            <label class="milli" for="good">Pretty good.</label>
+            </span>
+            
+            <span class="radio">
+            <input type="radio" id="super" name="like-cats">
+            <label class="milli" for="super">Super!</label>
+            </span>
+        </div>
+
+        <div>
+            <label for="why">Explain why you deserve to go:</label>
+            <textarea class="area" id="why"></textarea>
+        </div>
+    
+    <div class="sign">
+        <button class="exa" type="submit">Sign Up</button>
+    </div>
 </div>
+</form>
 </main>
-<footer class="grid footer island-half micro">
+<footer class=" grid footer island-half micro">
     <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
         <p class="copyright push-0">© 2014 Mars Planetary Consortium</p>
     </div>
